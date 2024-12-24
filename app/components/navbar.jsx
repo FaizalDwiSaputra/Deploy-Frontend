@@ -1,5 +1,6 @@
 'use client';
 import Link from 'next/link';
+import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { useEffect, useState } from "react";
 
 export default function Navbar() {
@@ -71,7 +72,7 @@ export default function Navbar() {
                 FaQs
               </Link>
             </li>
-            <li className="nav-item mx-2 d-flex align-items-center">
+            <li className="nav-item mx- my-2 my-lg-0 lg-2 d-flex align-items-center">
               <Link className="login" href="">
                 Login
               </Link>

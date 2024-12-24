@@ -43,6 +43,8 @@ export default function Menu() {
                 <h5 className="nama text-secondary card-title">{item.name}</h5>
                 <p className='harga'>Rp. {item.price} ribu rupiah</p>
                 <p className='text-muted'>{item.description.substring(0, 100)}</p>
+                <a href='' className='btn btn-warning'>Read More</a>
+                <a href='' className='btn btn-primary mx-2'>Order</a>
               </div>
             </div>
           </div>

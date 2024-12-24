@@ -38,10 +38,10 @@ export default function Home() {
       <div className=''>
         {data ? (
           <div className=''>
-           <div className='d-flex justify-content-between align-items-center'>
+           <div className='d-lg-flex justify-content-lg-between align-items-center'>
             <img src='chef.jpg' className='chef' width={450}></img>
-            <div className='deskripsi-profile text-start w-50'>
-                <h1 className='nama'>Tentang Restoran</h1>
+            <div className='deskripsi-profile text-start mx-4'>
+                <h1 className='nama text-center text-lg-start'>Tentang Restoran</h1>
                 <p className='text-muted my-2'>{data.about_us.substring(0,400)}</p>
                 <p>📍<i>{data.address}</i></p>
                 <div className='sosmed d-flex flex-column my-2'>
