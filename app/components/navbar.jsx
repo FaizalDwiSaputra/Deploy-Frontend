@@ -8,7 +8,7 @@ export default function Navbar() {
     const [error, setError] = useState(null); // Untuk menangkap error
   
     useEffect(() => {
-      fetch("http://localhost:8000/api/profile/") // URL endpoint Django
+      fetch("https://backend-deploy-production-155f.up.railway.app/api/profile/") // URL endpoint Django
         .then((response) => {
           if (!response.ok) {
             throw new Error(`HTTP error! Status: ${response.status}`);
