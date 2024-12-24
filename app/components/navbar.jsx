@@ -57,7 +57,7 @@ export default function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" href="/profile">
+              <Link className="nav-link" href="/profile/">
                 Profile
               </Link>
             </li>

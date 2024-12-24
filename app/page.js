@@ -43,7 +43,7 @@ export default function Home() {
               <div className='judul text-center'>
                 <h4 className='nama'>{data.name}</h4>
                 <h1>BEST RESTAURANT</h1>
-                <Link href="/profile" className='text-decoration-none more my-2'>
+                <Link href="/profile/" className='text-decoration-none more my-2'>
                  Selengkapnya
                 </Link>
               </div>  
