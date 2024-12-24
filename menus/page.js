@@ -11,8 +11,8 @@ export default function Menu() {
     const fetchData = async () => {
       try {
         const [productsResponse, openingResponse] = await Promise.all([
-          axios.get("backend-deploy-production-155f.up.railway.app/api/menus/"),
-          axios.get("backend-deploy-production-155f.up.railway.app/api/opening-hour/"),
+          axios.get("https://backend-deploy-production-155f.up.railway.app/api/menus/"),
+          axios.get("https://backend-deploy-production-155f.up.railway.app/api/opening-hour/"),
         ]);
 
         setProducts(productsResponse.data);

@@ -10,7 +10,7 @@ export default function Menu() {
   useEffect(() => {
     const fetchMenu = async () => {
       try {
-        const response = await fetch('backend-deploy-production-155f.up.railway.app/api/faq/');
+        const response = await fetch('https://backend-deploy-production-155f.up.railway.app/api/faq/');
         if (!response.ok) {
           throw new Error('Gagal mengambil data');
         }
